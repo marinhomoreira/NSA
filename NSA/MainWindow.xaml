@@ -1,0 +1,23 @@
+﻿<Window x:Class="NSA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Name="RootGrid">
+        <!--<TextBox Name="Logog"
+         HorizontalScrollBarVisibility="Visible"
+         VerticalScrollBarVisibility="Visible"
+         TextWrapping="Wrap"
+         IsReadOnly="True"
+         />-->
+        <!--<TextBox Name="ParticipantName" Width="200" Height="50" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <RadioButton Content="Type A" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Checked="RadioButtonA_Checked"/>
+        <RadioButton Content="Type B" HorizontalAlignment="Left" Margin="155,65,0,0" VerticalAlignment="Top" Checked="RadioButtonB_Checked"/>-->
+
+        <StackPanel Name="RootPanel" Margin="10,88,10,0" >
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Margin="370,10,0,0" TextWrapping="Wrap" Text="1-6 Warm up 7-11 Round 1 12-16 Warm up 17-22 Round 2" VerticalAlignment="Top" Width="88"/>
+        <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="75" Click="BackButton_Click"/>
+        <Button Content="Next" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="75" Click="NextButton_Click" />
+         
+    </Grid>
+</Window>
